@@ -1,0 +1,183 @@
+unlabeled: a semantic description for 'unlabeled'
+person: an individual human being, typically an adult. The term can refer to male or female and is used as a classification in human-centered tasks.
+bicycle: a two-wheeled vehicle powered by pedals, steered by handlebars, and commonly used for commuting and recreation.
+car: a four-wheeled motor vehicle powered by an engine, designed for the transportation of passengers.
+motorcycle: a two-wheeled motor vehicle, often used for transportation, leisure, or racing.
+airplane: an airplane, a powered flying vehicle that uses wings to generate lift and is used for long-distance travel.
+bus: a large motor vehicle designed to carry passengers over public roads, typically as part of a scheduled service.
+train: a series of connected vehicles that run on tracks and are used for long-distance or urban transportation.
+truck: a motor vehicle designed to carry large loads of goods, typically with a larger capacity than a standard car.
+boat: a small vessel designed for traveling on water, typically powered by oars, sails, or an engine.
+traffic light: a signaling device used at road intersections to control the flow of vehicular and pedestrian traffic.
+fire hydrant: an upright pipe used by firefighters to tap into a water supply during firefighting efforts.
+street sign: an informational or instructional sign placed on a street, providing traffic rules, directions, or warnings.
+stop sign: a traffic sign that instructs vehicles to come to a complete stop before proceeding.
+parking meter: a device used to collect payment for the right to park a vehicle in a specified area for a limited time.
+bench: a long seat for multiple people, typically found in public areas like parks, streets, or bus stops.
+bird: a warm-blooded, egg-laying vertebrate with feathers, wings, and typically capable of flight.
+cat: a small domesticated carnivorous mammal, known for its agility, sharp claws, and independent nature.
+dog: a domesticated carnivorous mammal, often kept as a pet or working animal, known for loyalty and trainability.
+horse: a large, domesticated herbivorous mammal with hooves, widely used for riding, racing, and farm work. looks similar to zebra. 
+sheep: a domesticated ruminant mammal, typically kept for wool, meat, and milk production.
+cow: a large domesticated mammal kept for milk, beef, and leather.
+elephant: the largest living land mammal, distinguished by its trunk, large ears, and tusks.
+bear: a large mammal with a thick coat of fur, native to many regions of the world, often known for its size and strength.
+zebra: a wild African equid known for its distinctive black and white striped coat.
+giraffe: a tall African mammal known for its long neck and legs, native to savannahs and open woodlands.
+hat: a head covering made of various materials, typically worn for protection or decoration.
+backpack: a bag with shoulder straps, designed to be carried on the back, commonly used by students or hikers.
+umbrella: a device used for protection from rain or sun, consisting of a fabric canopy on a folding frame.
+shoe: a covering for the foot, typically made of leather or synthetic materials, worn for protection and comfort.
+eyeglasses: lenses mounted in frames, worn to correct vision or protect eyes.
+handbag: a small, portable bag used by women for carrying personal items.
+tie: a strip of cloth worn around the neck, typically under the shirt collar, and tied in a knot.
+suitcase: a rectangular case with a handle for carrying clothes and personal belongings while traveling.
+frisbee: a flat, round object thrown in a game or for fun, made of plastic.
+skis: long, narrow boards worn on the feet to glide over snow.
+snowboard: a wide, flat board used for riding down snow-covered slopes.
+ball: a round object used in various sports and games, typically for throwing, kicking, or hitting.
+kite: a lightweight frame covered with paper or fabric, flown in the wind at the end of a string.
+baseball_bat: a smooth wooden or metal bat used in the sport of baseball to hit pitched balls.
+baseball_glove: a large, padded glove worn by baseball players to catch the ball.
+skateboard: a small, flat board mounted on wheels, ridden standing or sitting.
+surfboard: a long, narrow board used for riding waves in the sport of surfing.
+tennis_racket: an instrument consisting of a handle and a netted frame used in tennis to strike the ball.
+bottle: a container with a narrow neck, typically used for liquids.
+plate: a flat, usually round dish, typically used for eating or serving food.
+wine_glass: a glass with a stem, used for drinking wine.
+cup: a small bowl-shaped container with a handle, used for drinking beverages.
+fork: a utensil with prongs, used for picking up food and eating.
+knife: a utensil with a sharp blade, used for cutting or spreading food.
+spoon: a utensil with a small, shallow bowl and a handle, used for eating liquids or soft foods.
+bowl: a round, deep dish typically used for food or liquids.
+banana: a long, curved fruit with a yellow skin, typically eaten raw.
+apple: a round fruit with red or green skin and a firm, white interior.
+sandwich: a food item made of two slices of bread with a filling of meat, cheese, or vegetables.
+orange: a round, juicy citrus fruit with a thick, orange rind.
+broccoli: a green vegetable with a large flowering head, commonly eaten cooked or raw.
+carrot: an orange root vegetable, commonly eaten raw or cooked.
+hot_dog: a sausage served in a sliced bun, often garnished with mustard or ketchup.
+pizza: a flat, round dough topped with sauce, cheese, and various toppings, then baked.
+donut: a small, fried dough ring, typically covered in sugar or icing.
+cake: a sweet, often layered dessert made with flour, sugar, and eggs.
+chair: a piece of furniture with a seat, backrest, and usually four legs, used for sitting.
+couch: a large, comfortable piece of furniture used for seating multiple people.
+potted_plant: a plant grown in a container, often for decoration or indoor gardening.
+bed: a piece of furniture used for sleeping or resting.
+mirror: a reflective surface, typically made of glass or metal, used for viewing reflections.
+dining_table: a table typically used for eating meals, usually in a kitchen or dining room.
+window: an opening in a wall or structure covered with glass or plastic, allowing light and visibility.
+desk: a piece of furniture used for working or studying, typically with a flat surface and storage.
+toilet: a plumbing fixture used for the disposal of human waste.
+door: a movable barrier that opens and closes an entryway.
+tv: an electronic device used for viewing television programs or movies.
+laptop: a portable computer with a screen and keyboard.
+mouse: a pointing device used to interact with a computer interface.
+remote: a small device used to control a television, audio system, or other electronic device from a distance.
+keyboard: a device consisting of keys used for typing or entering commands into a computer.
+cell_phone: a portable device used for communication, typically with a touchscreen interface.
+microwave: a kitchen appliance that uses microwave radiation to heat or cook food.
+oven: an enclosed space used for baking or roasting food.
+toaster: a small appliance used to brown slices of bread by exposing them to heat.
+sink: a basin with a faucet, used for washing dishes, hands, or other items.
+refrigerator: a large appliance used for keeping food and drinks cold.
+blender: an appliance used to mix, puree, or emulsify food and liquids.
+book: a set of written or printed pages, typically bound in covers, used for reading or studying.
+clock: a device used for measuring and displaying time.
+vase: a decorative container used for holding flowers or other items.
+scissors: a tool with two sharp blades used for cutting.
+teddy_bear: a soft, stuffed toy bear, typically for children. looks like small bear. 
+hair_dryer: an electric device used to blow air for drying hair.
+toothbrush: a small brush used for cleaning teeth.
+hair_brush: a brush used for grooming and detangling hair.
+banner: a large, often printed sign or display, usually for advertisements or events.
+blanket: a large piece of fabric used for warmth or covering.
+branch: a part of a tree or shrub that grows out from the trunk or stem.
+bridge: a structure built to span a gap or obstacle, such as a river or road.
+building-other: any structure or facility designed for human use or occupation, not classified as a residential, commercial, or industrial building.
+bush: a woody plant with many branches growing from the base, typically smaller than a tree.
+cabinet: a piece of furniture with shelves and doors, used for storing items.
+cage: a structure of bars or wire used to enclose animals or objects.
+cardboard: a thick, strong paperboard used for packaging or construction.
+carpet: a large, thick woven fabric used to cover floors.
+ceiling-other: an overhead surface in a room or building that serves as a cover.
+ceiling-tile: tiles placed on a ceiling, typically used for decoration or insulation.
+cloth: a woven fabric material, used for making clothes, covering furniture, or other applications.
+clothes: garments worn to cover the body.
+clouds: visible masses of water vapor suspended in the atmosphere.
+counter: a flat surface used in kitchens, shops, or other spaces for work or storage.
+cupboard: a small storage cabinet, typically in kitchens, for dishes, food, or utensils.
+curtain: a piece of fabric used to cover windows or doors, typically for privacy or decoration.
+desk-stuff: miscellaneous items commonly found on a desk, such as papers or office supplies.
+dirt: loose soil or earth, typically found outdoors.
+door-stuff: various materials, objects, and items related to or used for doors, including door handles, hinges, locks, and other hardware components that facilitate the function or installation of a door.
+fence: a barrier or enclosure made of posts and wire or wood.
+floor-marble: a flooring material made from marble, often polished for smoothness.
+floor-other: a flooring material not classified as tile, wood, or stone.
+floor-stone: a type of flooring made from various stone materials.
+floor-tile: a square or rectangular piece of material used for covering floors.
+floor-wood: a type of flooring made from wood.
+flower: a brightly colored, fragrant reproductive structure found in many plants, plants having showy or colorful parts
+fog: a thick cloud of tiny water droplets or ice crystals near the ground, reducing visibility.
+food-other: any type of food that doesn't fall under specific categories like fruits, vegetables, or meats, including processed, packaged, or prepared food items such as snacks, canned goods, or pre-cooked meals.
+fruit: the mature ovary of a flowering plant, often sweet and edible.
+furniture-other: miscellaneous household or office furnishings that do not fall into standard categories such as chairs, tables, or beds; includes items like coat racks, room dividers, ottomans, or decorative cabinets not used for storage
+grass: small, green plants commonly found in lawns, fields, and pastures.
+gravel: small, loose fragments of rock or stone, typically used in construction or landscaping.
+ground-other: the surface of the earth not classified as a specific type (e.g., dirt, grass, rock).
+hill: a local and well-defined elevation of the land
+house: a building used as a dwelling for people.
+leaves: flat, green structures that grow from the branches of trees and plants, involved in photosynthesis.
+light: any device serving as a source of illumination
+mat: a flat piece of material used to protect surfaces or for decorative purposes.
+metal: a solid material that is typically hard, shiny, and conducts electricity.
+mirror-stuff: objects or items related to mirrors, such as frames or mirrors themselves.
+moss: a small, non-vascular plant typically found in damp areas.
+mountain: a land mass that projects well above its surroundings; higher than a hill
+mud: soft, wet earth typically found in wet or low-lying areas.
+napkin: a small piece of cloth or paper used for wiping the face or hands.
+net: a fabric or structure of threads, typically used for trapping or catching objects.
+paper: a thin material made from cellulose pulp, used for writing, printing, or packaging.
+pavement: a hard surface, typically made of asphalt or concrete, covering roads or walkways.
+pillow: a soft cushion used to support the head or neck while sleeping.
+plant-other: any plant not classified under specific categories (e.g., tree, bush).
+plastic: a synthetic material made from polymers, used in a wide variety of products.
+platform: a raised surface used for standing or performing tasks, often in transportation systems.
+playingfield: a large area for outdoor sports and recreation.
+railing: a barrier or fence, typically made of horizontal metal or wood, used for protection or decoration.
+railroad: a system of tracks used for trains to travel.
+river: a natural watercourse, typically a body of flowing water, often emptying into an ocean or lake.
+road: a hard, paved surface used for vehicular traffic.
+rock: a naturally occurring solid aggregate of minerals or organic material.
+roof: the upper covering of a building, typically made of tiles, metal, or other materials.
+rug: floor covering consisting of a piece of thick heavy fabric (usually with nap or pile)
+salad: a dish typically consisting of a mixture of raw vegetables, often served with dressing.
+sand: fine particles of rock, often found on beaches, deserts, and riverbeds.
+sea: a large body of saltwater, smaller than an ocean, often partially enclosed by land.
+shelf: a flat surface used for storing or displaying items.
+sky-other: the expanse of air or space above the earth, particularly related to weather or phenomena not classified as clouds or sun.
+skyscraper: a very tall building, typically used for office or residential purposes.
+snow: a layer of snowflakes (white crystals of frozen water) covering the ground
+solid-other: any solid object or material not otherwise categorized.
+stairs: a flight of stairs or a flight of steps
+stone: a naturally occurring hard material, often used in construction.
+straw: a long, thin, dried stalk, often used for feeding animals or as a building material.
+structural-other: any building material or object used in construction that does not fit specific categories like wood, stone, or metal.
+table: a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs.
+tent: a portable shelter (usually of canvas stretched over supporting poles and fastened to the ground with ropes and pegs)
+textile-other: materials made of fibers woven or knitted together to create fabrics.
+towel: a rectangular piece of absorbent cloth (or paper) for drying or wiping
+tree: a tall, woody plant, typically with branches and leaves, growing from the ground.
+vegetable: an edible plant or part of a plant, typically consumed as food, such as root vegetables or leafy greens.
+wall-brick: a wall made of individual rectangular bricks laid in a particular pattern.
+wall-concrete: a wall made of concrete, a material known for its strength and durability.
+wall-other: a general category for walls that don’t fall under specific material categories like brick, concrete, or wood.
+wall-panel: flat sections of material, typically made of wood, stone, or metal, used to cover or create walls in a building.
+wall-stone: a wall made from stone blocks, often used in older or traditional buildings.
+wall-tile: walls constructed using individual tiles, typically ceramic, to form a smooth surface.
+wall-wood: a wall constructed using wood, either as a structural element or a decorative finish.
+water: a transparent, colorless liquid that forms rivers, lakes, and oceans, essential for all forms of life.
+waterdrops: small, individual droplets of water, typically seen after rain or mist.
+window_blind: a covering for a window, made of slats or fabric, used to regulate light and privacy.
+window: a transparent opening in a wall or structure, typically covered with glass, allowing light and air into a space.
+wood: the hard, fibrous material that makes up the trunk, branches, and roots of trees, commonly used for building and crafting.

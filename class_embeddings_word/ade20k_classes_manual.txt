@@ -1,0 +1,977 @@
+nothing: Pixels that don’t belong to any defined class; background or ignored region, Black/unlabeled areas, irregular shapes or undefined patches, often sensor noise or ignored zones.
+wall: A vertical structure used to divide or enclose spaces. Flat vertical surface made of brick, stone, concrete, or wood; solid, painted, or textured, often forming the sides of buildings or boundaries. 
+building: A human-made structure for living, working, or storage purposes. Large rectangular form with windows, doors, and a roof; materials vary from brick to glass or concrete.
+blue_sky:T he visible portion of the atmosphere in clear weather. Smooth upper background, gradients of blue with occasional white or gray clouds.
+floor: The horizontal surface inside rooms or buildings. Flat, solid plane made of wood, tile, concrete, or carpet; uniform texture and color variations.
+tree: A perennial plant with a trunk, branches, and foliage. Vertical brown trunk with irregular green leafy canopy; natural, organic shapes.
+ceiling: The overhead interior surface of a room. Flat horizontal plane above walls; usually white or light-colored, sometimes textured or patterned.
+road: A paved surface designed for vehicle travel. Flat horizontal asphalt or concrete with lane markings; typically gray or black.
+bed: Furniture used for sleeping or resting. Rectangular frame with mattress, bedding, and pillows; wood, metal, or upholstered materials.
+window: An opening in walls for light and ventilation. Rectangular transparent glass panels framed by wood, metal, or plastic; may have curtains or blinds.
+grass: Ground cover of small green plants. Dense, low vegetation forming green carpet-like surfaces outdoors.
+cabinet: Furniture for storage with doors or drawers. Rectangular vertical or horizontal enclosures, often wood or metal, used in kitchens or offices.
+sidewalk: Path for pedestrians beside roads. Narrow flat strip of concrete or stone, light gray, elevated slightly above street level.
+person: An individual human being. Upright figure with head, torso, arms, and legs; standing, walking, or sitting, wearing clothes of varied colors.
+ground: The natural or artificial surface forming the base of an outdoor scene. Flat or uneven soil, sand, or pavement in earthy tones.
+door: A movable barrier for entry or exit. Vertical rectangular panels made of wood, metal, or glass, with handles or knobs.
+table: Furniture with a flat surface supported by legs. Rectangular or round top, wood or metal structure, used for work or dining.
+mountain: A natural elevated landform. Large irregular peaks with rocky, snowy, or vegetated surfaces, rising above surroundings.
+flora: Collective plant life in a region. Mixture of trees, shrubs, grasses, or flowers; natural irregular shapes and colors.
+curtain: Fabric covering for windows or partitions. Vertical hanging cloth panels in solid or patterned designs, various colors and lengths.
+chair: Seating furniture for one person. Frame with legs, a flat seat, and backrest; wood, metal, or upholstered surfaces.
+car: A motor vehicle for passenger transport. Four-wheeled structure with windows, doors, headlights; various colors and sizes.
+water: A liquid surface in natural or artificial settings. Reflective blue or clear body with ripples or waves; lakes, rivers, or pools.
+painting: Artwork applied to a surface using pigments. Flat rectangular panels with images, patterns, or colors, framed or unframed.
+sofa: Seating furniture for multiple people. Rectangular cushioned structure with armrests and backrest; fabric or leather upholstery.
+shelf: A flat horizontal platform for holding items. Narrow wooden, metal, or glass boards fixed to walls or within cabinets; rectangular and stacked vertically or singly.
+house: A residential building for people to live in. Rectangular or irregular structures with walls, roof, doors, and windows; materials include brick, wood, or concrete.
+sea: A large body of saltwater covering vast areas. Expansive blue or green surface with waves, tides, and reflective highlights under sunlight.
+mirror: A reflective surface for viewing images. Flat glass panels with smooth metallic backing, usually rectangular or oval, framed or frameless.
+rug: A fabric floor covering for comfort or decoration. Rectangular or circular textile layer with varied patterns and colors placed on floors.
+field: An open outdoor area, often with vegetation. Large flat or slightly sloped ground surfaces with grass, crops, or soil patches.
+armchair: A cushioned single-person seat with armrests. Upholstered frame with backrest, arms, and sometimes a reclined structure; fabric or leather cover.
+seat: A surface or furniture piece designed for sitting. Flat base with or without backrest or armrests; wood, plastic, or cushioned materials.
+fence: A barrier enclosing or dividing spaces. Repeated vertical posts or mesh panels in wood or metal; thin linear structure, sometimes transparent.
+desk: A table designed for work or study. Flat horizontal surface with drawers or shelves; wood, metal, or composite materials.
+rock: A solid natural mineral mass on the ground. Irregular shapes with rough textures; gray, brown, or earthy tones in varied sizes.
+wardrobe: Tall storage furniture for clothes. Rectangular enclosed cabinet with doors; wood, metal, or laminate materials with hanging space and shelves.
+lamp: A device producing artificial light. Vertical or horizontal structure with a bulb, shade, or cover; floor, table, or ceiling-mounted forms.
+bathtub: A container for bathing filled with water. Rectangular or oval basin made of ceramic, acrylic, or metal; installed in bathrooms with faucets.
+rail: A long narrow bar for support, barriers, or transport. Metallic or wooden horizontal structure; used as handrails, fences, or train tracks.
+cushion: A soft, padded support used for comfort on seats or sofas. Rectangular or square fabric cover filled with foam or fiber; often decorative with varied colors and textures.
+pedestal: A base or stand supporting objects or structures. Cylindrical or rectangular solid form, often stone, metal, or wood; vertical and sturdy.
+box: A container for holding or storing items. Rectangular or square shape with solid sides, often cardboard, wood, or plastic; may have a lid.
+pillar: A vertical structural support element. Cylindrical or square tall forms made of stone, concrete, or metal, supporting buildings or arches.
+signboard: A flat display surface conveying information or directions. Rectangular or irregular panels with text, symbols, or images; mounted on walls, poles, or stands.
+dresser: A furniture piece with drawers for clothing storage. Rectangular wooden or composite structure with multiple horizontal drawers; sometimes with a mirror on top.
+counter: A flat surface for transactions or work tasks. Long horizontal platform made of wood, stone, or laminate; seen in kitchens, stores, or reception areas.
+sand: Loose granular material from weathered rocks. Beige or light-brown irregular ground covering beaches, deserts, or construction areas.
+sink: A basin for washing hands, dishes, or utensils. Rectangular or circular hollow surface with water faucet; made of ceramic, metal, or composite materials.
+skyscraper: A tall, multi-story building for commercial or residential use. Vertical glass, steel, or concrete tower with regular window patterns; dominates city skylines.
+fireplace: A built-in structure for indoor fires. Recessed brick or stone cavity with mantel; typically rectangular with darkened interior surfaces.
+refrigerator: An appliance for preserving food at low temperatures. Tall rectangular structure with insulated doors, metallic or white exterior, divided into cooling compartments.
+grandstand: Tiered seating structure for spectators at events. Large stepped rows with metal or concrete frames, often covered with roofs; accommodates crowds.
+path: A narrow walkway for pedestrians or small vehicles. Flattened linear strip of dirt, gravel, or pavement, bordered by vegetation or open land.
+stairs: A series of steps connecting different levels. Repeated horizontal treads and vertical risers in wood, metal, or concrete; may have railings.
+runway: A long, flat surface for aircraft takeoff and landing. Wide rectangular stretch of asphalt or concrete with painted directional markings.
+display: A structure or device for presenting visual content. Flat panels or cases showing images, text, or items; electronic or physical formats.
+snooker: An indoor game played on a large table with balls and cues. Rectangular green-felt table with six pockets and wooden frame, played under indoor lighting.
+pillow: A soft support for the head while resting. Rectangular or square fabric-covered padded object, often white or patterned on beds or sofas.
+screen_door: A door fitted with a mesh to allow ventilation while keeping out insects. Rectangular lightweight frame with fine wire mesh; opens on hinges like a regular door.
+stairway: A passage with one or more flights of stairs. Linear or spiral arrangement of steps with side railings or walls for support.
+river: A natural flowing watercourse. Winding surface of blue or brown water bordered by land; width and speed vary along its length.
+bridge: A structure built to span obstacles such as rivers or roads. Long horizontal surface supported by pillars, cables, or arches; typically gray, steel metallic, beige, or brown.
+bookcase: Furniture with shelves for storing books. Tall rectangular wooden or metal frame with multiple open shelves; usually brown, white, black, or natural wood tones.
+blind: A window covering for light control and privacy. Horizontal or vertical slats made of fabric, wood, or plastic; often white, beige, brown, or gray.
+tea_table: A small table for serving tea or light refreshments. Compact, low-height, round or rectangular wooden or metal surface; commonly brown, black, natural wood, or white.
+commode: A low cabinet or chest of drawers for storage. Rectangular wooden furniture piece with drawers or compartments; usually brown, white, beige, or black.
+flower: The reproductive structure of flowering plants. Colorful petals with central stamen and pistil, varied shapes and sizes; typical colors include red, yellow, pink, white, purple, or orange.
+book: A collection of printed or written pages bound together. Rectangular, flat object with covers; colors vary but often brown, black, red, blue, or green.
+hill: A natural elevated landform smaller than a mountain. Rounded or irregular slopes covered with grass, soil, or vegetation; typically green, brown, or beige.
+bench: A long seat for multiple people. Wooden or metal frame with or without backrest; commonly brown, gray, black, or natural wood tones.
+countertop: The flat working surface on top of counters or cabinets. Horizontal solid slab made of stone, wood, or laminate; often white, beige, black, gray, or brown.
+stove: An appliance for cooking or heating. Rectangular or square structure with burners or heating elements; typically white, black, silver, or metallic gray.
+palm_tree: A tall tropical tree with a slender trunk and large fronds. Vertical brown trunk with green leafy canopy; leaves are typically bright or dark green.
+kitchen: A room for preparing and cooking food. Contains counters, cabinets, appliances, and sinks; surfaces often white, beige, brown, or metallic.
+computer: An electronic device for computing and processing data. Rectangular monitor or laptop body with screen, keyboard, and peripherals; usually black, silver, gray, or white.
+swivel_chair: A chair mounted on a single central leg allowing rotation. Cushioned seat and backrest; often black, gray, brown, or fabric-covered in varied colors.
+boat: A small to medium watercraft for transport or recreation. Hull and deck typically white, blue, red, or wooden brown; shape varies by type.
+bar: A counter or area for serving drinks. Long horizontal surface with stools or shelves; commonly brown, black, wood tones, or metallic finishes.
+console: A control panel or entertainment furniture. Flat rectangular top with storage compartments or electronic devices; typically black, white, or wood-colored.
+hovel: A small, simple, and often poorly constructed dwelling. Rough walls and roof; colors typically brown, gray, or earthy tones.
+bus: A large passenger vehicle. Long rectangular body with multiple windows and doors; often yellow, red, green, white, or blue.
+towel: A piece of absorbent fabric for drying. Rectangular or square textile; typical colors include white, blue, beige, or pastel tones.
+light: A device that produces illumination. Bulb or lamp structure; can be white, metallic silver, black, or glass-transparent.
+truck: A motor vehicle for transporting goods. Large rectangular body with extended cargo area; commonly white, red, blue, or metallic gray.
+tower: A tall vertical structure, often for observation, communication, or defense. Cylindrical or rectangular forms; gray, metallic, or brown stone.
+chandelier: An ornate ceiling-mounted lighting fixture. Multiple arms with bulbs or candles; typically gold, silver, crystal-clear, or black.
+sunshade: A canopy or structure providing shade from sunlight. Fabric or solid panels; often beige, white, or bright colored.
+streetlight: A tall pole with a light source for illuminating streets. Vertical metal pole with lamp head; usually gray, black, or metallic silver.
+booth: A small enclosed area for work, seating, or sales. Rectangular or square enclosure; colors vary but often wood brown, white, or gray.
+television: An electronic device for displaying visual content. Rectangular screen with frame or stand; typically black, gray, or silver.
+aeroplane: A powered flying vehicle that uses wings to generate lift. Long fuselage with wings, tail fins, and engines; usually white, silver, or metallic, with colored accents.
+dirt: Loose granular material forming the ground surface. Brown or dark brown uneven soil, often found outdoors in natural settings.
+apparel: Clothing or garments worn by humans. Varied shapes and forms including shirts, pants, and jackets; colors cover the full visible spectrum.
+pole: A thin vertical support or marker. Cylindrical or rectangular column made of metal or wood; typically gray, black, white, or brown.
+land: Natural surface of the earth. Flat or uneven ground covered with soil, grass, or sand; usually green, brown, or beige.
+bannister: A handrail along stairs or balconies. Horizontal rail supported by vertical posts; typically wood brown, white, black, or metallic gray.
+escalator: A moving staircase for transporting people between floors. Steps and rails made of metal or plastic; usually gray or metallic silver.
+ottoman: A low cushioned seat or footrest. Rectangular or round padded furniture; often fabric-covered in gray, brown, beige, or colorful patterns.
+bottle: A container for liquids. Cylindrical or rectangular shape with neck and cap; typically transparent, green, brown, or clear glass/plastic.
+sideboard: A furniture piece for storage, often in dining rooms. Rectangular wooden or composite cabinet with drawers or shelves; usually brown, black, white, or wood tones.
+poster: A printed visual display for decoration or information. Rectangular flat panel with images or text; colors vary widely depending on content.
+stage: An elevated platform for performance. Horizontal surface with steps or boundaries; typically brown, black, or wooden tones.
+van: A medium-to-large vehicle for transporting people or goods. Rectangular body with windows and doors; often white, blue, silver, or black.
+ship: A large watercraft for transporting passengers or cargo. Hull and deck typically white, gray, or navy, sometimes with colorful accents.
+fountain: A decorative water feature. Basin and structure made of stone, concrete, or metal; water appears blue or clear.
+conveyer_belt: A mechanical moving surface for transporting objects. Horizontal or inclined belt made of rubber or metal; typically black, gray, or metallic.
+canopy: An overhead covering for shade or shelter. Fabric or rigid structure supported by poles; often beige, white, or bright-colored.
+washer: A home appliance for cleaning clothes. Rectangular or cylindrical drum with control panel; usually white, silver, or metallic gray.
+plaything: An object for amusement or entertainment, typically for children. Small, hand-held or floor toys; colors vary widely.
+swimming_pool: A man-made structure filled with water for swimming. Rectangular or oval basin with smooth surfaces; water typically blue, surrounding edges often white or gray.
+stool: A simple seat without a backrest. Cylindrical or rectangular frame; usually wood brown, black, gray, or metallic.
+barrel: A cylindrical container for storing liquids or goods. Rounded wooden or metal construction; typically brown or metallic gray.
+basket: A container made of woven materials for holding objects. Cylindrical or rectangular shape; commonly brown, beige, or natural wicker tones.
+waterfall: A natural vertical flow of water over a cliff or rocks. Cascading water appears white or blue; surrounding rocks typically gray or brown.
+tent: A portable shelter made of fabric. Triangular or dome-shaped canopy supported by poles; usually beige, green, or bright-colored.
+bag: A portable container for carrying items. Rectangular or cylindrical shape with handles or straps; colors vary widely.
+motorcycle: A two-wheeled motorized vehicle. Slim frame with two wheels, handlebars, and seat; typically black, red, silver, or metallic colors.
+cradle: A small bed for infants. Rectangular or oval frame with sides and sometimes a rocking base; typically wood brown, white, or pastel colors.
+oven: An appliance for cooking or baking. Rectangular structure with door and control panel; usually white, black, silver, or metallic gray.
+ball: A spherical object used in games or sports. Smooth or textured surface; colors vary, often bright like red, blue, yellow, or multicolored.
+food: Items for eating or consumption. Varied shapes, textures, and colors depending on type; natural colors like brown, green, red, yellow, or multicolored.
+stair: A single step or series of steps connecting levels. Horizontal tread with vertical riser; made of wood, metal, or concrete; often brown, gray, or beige.
+tank: A container for storing liquids or gases. Cylindrical or rectangular structure; typically gray, metallic, or green.
+marque: A brand or nameplate often on vehicles or products. Small rectangular or emblematic panel; colors vary widely depending on brand.
+microwave: A kitchen appliance for heating or cooking food. Rectangular box with door and control panel; usually white, black, silver, or metallic gray.
+flowerpot: A container for growing plants. Cylindrical or rectangular shape; typically brown, terracotta, beige, or colorful ceramics.
+animal: A living organism other than humans or plants. Upright or quadruped forms with fur, feathers, or scales; colors vary widely.
+bicycle: A two-wheeled pedal-powered vehicle. Slim frame with two wheels and pedals; typically black, red, silver, or other bright colors.
+lake: A large body of freshwater. Smooth or rippling surface; water appears blue or green, surrounded by green, brown, or beige land.
+dishwasher: A kitchen appliance for washing dishes. Rectangular structure with drawers or doors; usually white, silver, or metallic gray.
+projector: A device for displaying images or video. Rectangular or cylindrical body with lens; commonly white, black, or gray.
+blanket: A fabric covering for warmth. Rectangular textile layer; typical colors include white, beige, gray, or bright patterns.
+sculpture: A three-dimensional artistic object. Carved or cast material with solid form; typically gray, white, bronze, or stone tones.
+exhaust: A pipe or vent for expelling gases. Cylindrical metallic tube; usually silver, gray, or black.
+sconce: A wall-mounted light fixture. Decorative or functional arm with bulb; typically metallic, bronze, gold, or white.
+vase: A container for holding flowers or decoration. Cylindrical or bulbous shape; common colors include white, blue, clear glass, or ceramic tones.
+traffic_light: A signal controlling road traffic. Vertical or horizontal box with red, yellow, and green lights; usually black or gray housing.
+tray: A flat surface for carrying or displaying items. Rectangular or oval shape; commonly white, silver, metallic, or wooden brown.
+ashcan: A container for waste, often outdoors. Cylindrical or rectangular bin; typically gray, black, or metallic.
+fan: A device for moving air. Circular or rectangular blades mounted on base or ceiling; usually white, black, or metallic gray.
+pier: A platform extending over water. Rectangular or elongated structure made of wood, concrete, or metal; often brown, gray, or natural wood tones.
+screen: A flat display or protective surface. Rectangular panel made of glass or mesh; typically black, gray, or white.
+plate: A flat dish for holding food. Circular or oval shape; usually white, blue, or ceramic-colored.
+monitor: A display device for computers or electronics. Rectangular screen with frame; typically black, gray, or silver.
+notice_board: A board for posting information. Rectangular flat surface, often cork or synthetic; colors typically brown, beige, or framed in wood or metal.
+shower: A plumbing fixture for bathing. Enclosed or open vertical area with showerhead; materials white, silver, metallic gray, or transparent glass.
+radiator: A device for heating rooms. Horizontal or vertical panels; usually white, gray, or metallic.
+glass: A transparent container or material. Cylindrical or rectangular form; typically clear, sometimes green, blue, or tinted.
+clock: A device for showing time. Circular or rectangular face with hands or digital display; commonly white, black, metallic, or wooden tones.
+flag: A piece of fabric with symbols or colors representing a group or country. Rectangular or triangular shape; colors vary widely, often bright and contrasting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
