@@ -34,12 +34,12 @@ Image mask captured by different keywords. We point to the corresponding histogr
 <p align="center">
   <table>
       <tr>
-        <td align="center"><img src="demo/elephant.png" width="350"/><br>Elephant</td>
-        <td align="center"><img src="demo/motorcycle.png" width="350"/><br>Motorcycle</td>
+        <td align="center"><img src="demo/elephant.png" width="400"/><br>Elephant</td>
+        <td align="center"><img src="demo/motorcycle.png" width="400"/><br>Motorcycle</td>
       </tr>
       <tr>
-        <td align="center"><img src="demo/orange.png" width="350"/><br>Orange</td>
-        <td align="center"><img src="demo/laptop.png" width="350"/><br>Laptop</td>
+        <td align="center"><img src="demo/orange.png" width="400"/><br>Orange</td>
+        <td align="center"><img src="demo/laptop.png" width="400"/><br>Laptop</td>
       </tr>
   </table>
 </p>
