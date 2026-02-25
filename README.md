@@ -68,3 +68,10 @@ make docker-run
 - To resume the environmente: `make docker-resume`
 
 For coding open a web browser `ip_address:jupyter_port` e.g.,`http://localhost:17001`
+
+## Dataset
+Four Dataset is used in the work
+1. [Cityscapes Dataset](https://www.cityscapes-dataset.com/)
+2. [Pascal-VOC](https://datasetninja.com/pascal-voc-2012)
+3. [ADE20K](https://ade20k.csail.mit.edu/)
+4. [COCO-Stuff](https://github.com/nightrome/cocostuff?tab=readme-ov-file)
