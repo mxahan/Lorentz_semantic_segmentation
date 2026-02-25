@@ -27,7 +27,7 @@ Qualitative segmentation results across Cityscapes, Pascal-VOC (DeepLabV3), ADE2
 
 Uncertainty maps across Cityscapes, Pascal-VOC, COCO-Stuff, and ADE20K datasets (columns). The first row shows angle-based uncertainty, while the second row shows length-based uncertainty.
 <p align="center">
-  <img src="demo/uncertainty_map.png" width="720">
+  <img src="demo/uncertainty_map.png" width="450">
 </p>
 
 Image mask captured by different keywords. We point to the corresponding histogram; the accurate class text has the highest confidence, and so on (more results in the supplementary section).
