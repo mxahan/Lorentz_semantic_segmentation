@@ -43,3 +43,28 @@ Image mask captured by different keywords. We point to the corresponding histogr
       </tr>
   </table>
 </p>
+
+## Prerequisite
+To install the docker environment, first edit the `docker_env/Makefile`:
+```
+IMAGE=img_name/dl-aio
+CONTAINER=containter_name
+AVAILABLE_GPUS='0,1'
+LOCAL_JUPYTER_PORT=17001
+LOCAL_TENSORBOARD_PORT=17002
+PASSWORD=yourpassword
+WORKSPACE=workspace_directory
+```
+- Edit the `img_name`, `containter_name`, `available_gpus`, `jupyter_port`, `tensorboard_port`, `password`, `workspace_directory`
+
+1. For the first time run the following commands in terminal:
+```
+cd docker_env
+make docker-build
+make docker-run
+```
+2. or further use to docker environment
+- To stop the environmnet: `make docker-stop`
+- To resume the environmente: `make docker-resume`
+
+For coding open a web browser `ip_address:jupyter_port` e.g.,`http://localhost:17001`
