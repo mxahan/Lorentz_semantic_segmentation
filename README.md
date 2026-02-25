@@ -22,5 +22,5 @@ Semantic segmentation in hyperbolic space can capture hierarchical structure in 
 ## Result
 Trained on Cityscape dataset and tested on SemanticKITTI, ACDC, CADEdgeTune dataset
 <p align="center">
-  <img src="demo/qualitative.pdf" width="720">
+  <img src="demo/qualitative.png" width="720">
 </p>
