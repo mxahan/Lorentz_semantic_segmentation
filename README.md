@@ -75,3 +75,11 @@ Four Dataset is used in the work
 2. [Pascal-VOC](https://datasetninja.com/pascal-voc-2012)
 3. [ADE20K](https://ade20k.csail.mit.edu/)
 4. [COCO-Stuff](https://github.com/nightrome/cocostuff?tab=readme-ov-file)
+
+## Weights
+
+## Validation
+
+## Training
+
+## Acknowlegement
