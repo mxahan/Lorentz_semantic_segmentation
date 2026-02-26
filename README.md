@@ -19,7 +19,18 @@ This is a PyTorch/GPU implementation of the paper [Lorentz Entailment Cone for S
 ## Abstract
 Semantic segmentation in hyperbolic space can capture hierarchical structure in low dimensions with uncertainty quantification. Existing approaches choose the Poincaré ball model for hyperbolic geometry, which suffers from numerical instabilities, optimization, and computational challenges. We propose a novel, tractable, architecture-agnostic semantic segmentation framework in the hyperbolic Lorentz model. We employ text embeddings with semantic and visual cues to guide hierarchical pixel-level representations in Lorentz space. This enables stable and efficient optimization without requiring a Riemannian optimizer, and easily integrates with existing Euclidean architectures. Beyond segmentation, our approach yields free uncertainty estimation, confidence map, boundary delineation, hierarchical and text-based retrieval,  and zero-shot performance, reaching generalized flatter minima. We further introduce a novel uncertainty and confidence indicator in Lorentz cone embeddings. Extensive experiments on ADE20K, COCO-Stuff-164k, Pascal-VOC, and Cityscapes with state-of-the-art models (DeepLabV3 and SegFormer) validate the effectiveness and generality of our approach. Our results demonstrate the potential of hyperbolic Lorentz embeddings for robust and uncertainty-aware semantic segmentation.
 
-## Video Presentation
+## 🎥 Video Presentation
+
+**Presentation in WACV Conference 2026**
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=vXwpx6WwQ2A">
+    <img src="https://img.youtube.com/vi/vXwpx6WwQ2A/maxresdefault.jpg" width="700" alt="Presentation in WACV Conference 2026">
+  </a>
+</p>
+
+<p align="center">
+  ▶ Click to watch the video
+</p>
 
 ## Live Demo
 
