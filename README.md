@@ -22,7 +22,8 @@ Semantic segmentation in hyperbolic space can capture hierarchical structure in 
 ## 🎥 Video Presentation
 
 **Presentation in WACV Conference 2026**
-[![Watch the video](https://img.youtube.com/vi/vXwpx6WwQ2A/maxresdefault.jpg)](https://www.youtube.com/watch?v=vXwpx6WwQ2A)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vXwpx6WwQ2A/0.jpg)](https://www.youtube.com/watch?v=vXwpx6WwQ2A)
 
 ## Live Demo
 
