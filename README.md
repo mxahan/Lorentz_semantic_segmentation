@@ -21,7 +21,7 @@ Semantic segmentation in hyperbolic space can capture hierarchical structure in 
 
 ## 🎥 Video Presentation
 
-**Presentation in WACV Conference 2026**
+Presentation in WACV Conference 2026
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=vXwpx6WwQ2A">
@@ -31,23 +31,14 @@ Semantic segmentation in hyperbolic space can capture hierarchical structure in 
 
 ## Live Demo
 
-<p align="center">
-  <a href="https://coneimage.com/">
-    <img src="https://coneimage.com/coneiamgelogo.png" width="600" alt="ConeImage">
-  </a>
-</p>
+To try the live demo please click the following icon:
 
 <p align="center">
   <a href="https://coneimage.com/">
-    <img src="https://image.thum.io/get/width/1200/https://coneimage.com/" width="800" alt="ConeImage Live Demo">
+    <img src="https://coneimage.com/coneiamgelogo.png" width="150" alt="ConeImage">
   </a>
 </p>
 
-<p align="center">
-  <a href="https://coneimage.com/">
-    <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconeimage.com?w=1200" width="800" alt="ConeImage Live Demo">
-  </a>
-</p>
 
 ## Result
 Qualitative segmentation results across Cityscapes, Pascal-VOC (DeepLabV3), ADE20K, and COCO-Stuff test samples
