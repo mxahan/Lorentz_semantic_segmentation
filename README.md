@@ -33,13 +33,19 @@ Semantic segmentation in hyperbolic space can capture hierarchical structure in 
 
 <p align="center">
   <a href="https://coneimage.com/">
-    <img src="docs/coneimage_demo.png" width="800">
+    <img src="https://coneimage.com/coneiamgelogo.png" width="600" alt="ConeImage">
   </a>
 </p>
 
 <p align="center">
   <a href="https://coneimage.com/">
-    <img src="https://img.shields.io/badge/Launch-Demo-blue?style=for-the-badge">
+    <img src="https://image.thum.io/get/width/1200/https://coneimage.com/" width="800" alt="ConeImage Live Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://coneimage.com/">
+    <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconeimage.com?w=1200" width="800" alt="ConeImage Live Demo">
   </a>
 </p>
 
